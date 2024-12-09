@@ -1,0 +1,43 @@
+.navbar {
+  display: flex;
+  width: 80%;
+  margin: 0 auto; /* Centre la nav bar horizontalement */
+  background-color: #f8f9fa;
+  margin-top: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 20px;
+  box-shadow: 0 2px 2px -2px black;
+}
+.logo {
+  margin-left: 10px;
+  height: 55px;
+  margin-right: 200px;
+}
+
+.nav {
+}
+li {
+  list-style-type: none;
+  display: inline;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(89, 89, 89);
+  margin-right: 40px;
+  padding: 5px;
+}
+
+a:hover {
+  color: #333;
+  background-color: #e0e0e0; /* Couleur au survol */
+  border-radius: 20px;
+  transition: color 0.5s ease, background-color 0.5s ease;
+}
+
+a:not(:hover) {
+  background-color: transparent;
+  border-radius: 20px;
+  transition: color 0.5s ease, background-color 0.5s ease;
+}
